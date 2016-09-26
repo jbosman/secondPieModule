@@ -10,13 +10,14 @@
     <!-- CUTSOM CSS -->
     <!-- <link rel="stylesheet" type="text/css" href='/public/css/main.css'> -->
     <!-- ANGULAR -->
-    <!-- <script src="/angular/angular.js"></script>
-    <script src="js/app.js"></script> -->
+    <script src="/angular/angular.js"></script>
+    <script src="js/app.js"></script>
   </head>
 
-   <body>
+   <body ng-app="pete">
       <img class="center-block" src="public/images/raspberryPiLogo.jpg">
       <h1 class="text-center"> Hi I'm Pete Pi </h1>
+      <button ng-controller='peteCtrl' ng-click="sendMessage()" type="button" class="btn btn-success center-block"> Click Pete! </button>
    </body>
 
 </html>
